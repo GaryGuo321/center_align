@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*设置一个320*310的大容器*/
+
+.container{
+    width: 320px;
+    height: 310px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -155px;
+    margin-left: -160px;
+}
+/*把大容器分为3大行，做一个小容器*/
+
+.container-top{
+    width: 320px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+.container-middle{
+    width: 320px;
+    height: 100px;
+}
+.container-bottom{
+    width: 320px;
+    height: 100px;
+    margin-top: 5px;
+}
+
+/*5个div分别用于5个正方形*/
+
+.container-top-center{
+    width: 100px;
+    height: 100px;
+    background-color: #2b70a0;
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px 2px #a9a9a9;
+    border: 1px;
+    border-radius: 7px;
+
+}
+
+.container-middle-left{
+    width: 100px;
+    height: 100px;
+    background-color: #624180;
+    float: left;
+    margin-left: 5px;
+    box-shadow: 2px 2px 5px 2px #a9a9a9;
+    border: 1px;
+    border-radius: 7px;
+}
+.container-middle-center{
+    width: 100px;
+    height: 100px;
+    background-color: #d7d8db;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 2px 2px 5px 2px #a9a9a9;
+    border: 1px;
+    border-radius: 7px;
+}
+.container-middle-right{
+    width: 100px;
+    height: 100px;
+    background-color: #2c883a;
+    float: left;
+    margin-right: 5px;
+    box-shadow: 2px 2px 5px 2px #a9a9a9;
+    border: 1px;
+    border-radius: 7px;
+}
+.container-bottom-center{
+    width: 100px;
+    height: 100px;
+    background-color: #a2382e;
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px 2px #a9a9a9;
+    border: 1px;
+    border-radius: 7px;
+}
+
+/*图片样式*/
+
+.image{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -12px;
+    margin-top: -12px;
+}
